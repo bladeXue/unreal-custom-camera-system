@@ -3,8 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "DefaultGameModeBase.generated.h"
 #include "GameFramework/GameModeBase.h"
+#include "DefaultGameModeBase.generated.h"
 
 /**
  *

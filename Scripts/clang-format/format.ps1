@@ -12,7 +12,7 @@ $TargetFileRegexs |
 ForEach-Object {
     Get-ChildItem -Path $GIT_PROJECT_SOURCE -Filter $_ -Recurse | 
     Where-Object {
-        clang-format -style=Microsoft -i $_.FullName
+        clang-format -style=file -i $_.FullName
     }    
 }
 
