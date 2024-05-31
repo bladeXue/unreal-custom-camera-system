@@ -3,15 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/GameModeBase.h"
 #include "DefaultGameModeBase.generated.h"
+#include "GameFramework/GameModeBase.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class CUSTOMCAMERASYSTEM_API ADefaultGameModeBase : public AGameModeBase
 {
-	GENERATED_BODY()
-	
+    GENERATED_BODY()
 };
